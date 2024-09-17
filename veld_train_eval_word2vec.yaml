@@ -1,5 +1,11 @@
 x-veld:
   chain:
+    description: "a multi-chain, doing training and evaluation of a word2vec model"
+    topics:
+      - "NLP"
+      - "Machine Learning"
+      - "word embeddings"
+      - "model evaluation"
 
 services:
   veld_train_word2vec:
