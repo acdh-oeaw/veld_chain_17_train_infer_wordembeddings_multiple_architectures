@@ -21,7 +21,7 @@ services:
       memory: 4.0
       vocab_min_count: 5
       vector_size: 200
-      max_iter: 10
+      max_iter: 50
       window_size: 15
       binary: 2
       num_threads: 14

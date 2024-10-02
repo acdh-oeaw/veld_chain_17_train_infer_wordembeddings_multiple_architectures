@@ -1,5 +1,10 @@
 x-veld:
   chain:
+    description: "a word2vec jupyter notebook, for quick experiments"
+    topics:
+      - "NLP"
+      - "Machine Learning"
+      - "word embeddings"
 
 services:
   veld_jupyter_notebook_word2vec:

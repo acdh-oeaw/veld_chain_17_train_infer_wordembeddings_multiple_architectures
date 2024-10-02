@@ -1,5 +1,10 @@
 x-veld:
   chain:
+    description: "transforming wikipedia raw jsons to a single txt file."
+    topics:
+      - "NLP"
+      - "Machine Learning"
+      - "ETL"
 
 services:
   veld_preprocess_transform_wiki_json_to_txt:
@@ -18,5 +23,5 @@ services:
       set_split_sentences: true
       cpu_count: 14
       sample_random_seed: 42
-      info_interval: 10
+      buffer_segments: 10
 

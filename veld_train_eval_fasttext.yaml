@@ -14,7 +14,7 @@ services:
       out_model_file: "m1.bin"
       model_description: "test training"
       vector_size: 200
-      epochs: 10
+      epochs: 50
 
   veld_eval_fasttext:
     extends:

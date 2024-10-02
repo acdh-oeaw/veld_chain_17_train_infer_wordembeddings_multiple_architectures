@@ -1,5 +1,11 @@
 x-veld:
   chain:
+    description: "a multi-chain, doing training and evaluation of a word2vec model"
+    topics:
+      - "NLP"
+      - "Machine Learning"
+      - "word embeddings"
+      - "model evaluation"
 
 services:
   veld_train_word2vec:
@@ -13,7 +19,7 @@ services:
       in_train_data_file: "de_wiki_sample.txt"
       out_model_file: "m1.bin"
       model_description: "word2vec test model"
-      epochs: 20
+      epochs: 100
       vector_size: 200
 
   veld_eval_word2vec:

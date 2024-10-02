@@ -1,5 +1,10 @@
 x-veld:
   chain:
+    description: "downloading wikipedia archive and extracting each article to a json file."
+    topics:
+      - "NLP"
+      - "Machine Learning"
+      - "ETL"
 
 services:
   veld_preprocess_download_and_extract:
